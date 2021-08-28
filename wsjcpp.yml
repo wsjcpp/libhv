@@ -1,0 +1,27 @@
+wsjcpp_version: "v0.1.1"
+cmake_minimum_required: "3.0"
+cmake_cxx_standard: "11"
+name: "libhv"
+version: "v1.2.1"
+description: "http and ws server"
+issues: "https://github.com/ithewei/libhv/issues"
+keywords:
+  - "c++"
+  - "http-server"
+  - "ws-server"
+
+repositories:
+  - type: main
+    url: "https://github.com/ithewei/libhv"
+
+authors:
+  - name: "ithewei"
+    email: "ithewei@163.com"
+
+distribution:
+  - source-file: "hv.h"
+    target-file: "hv.h"
+    type: "source-code"
+  - source-file: "hconfig.h"
+    target-file: "hv.h"
+    type: "source-code"
